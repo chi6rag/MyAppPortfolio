@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/apps_container"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        style="@style/my_nanodegree_apps_heading"
+        android:text="@string/my_nanodegree_apps"/>
+
+    <Button
+        android:id="@+id/spotify_streamer"
+        style="@style/nanodegree_app_general"
+        android:text="@string/spotify_streamer"/>
+
+    <Button
+        android:id="@+id/super_duo"
+        style="@style/nanodegree_app_general"
+        android:text="@string/super_duo"/>
+
+    <Button
+        android:id="@+id/build_it_bigger"
+        style="@style/nanodegree_app_general"
+        android:text="@string/build_it_bigger"/>
+
+    <Button
+        android:id="@+id/xyz_reader"
+        style="@style/nanodegree_app_general"
+        android:text="@string/xyz_reader"/>
+
+    <Button
+        android:id="@+id/capstone"
+        style="@style/nanodegree_app_capstone"
+        android:text="@string/capstone"/>
+</LinearLayout>
